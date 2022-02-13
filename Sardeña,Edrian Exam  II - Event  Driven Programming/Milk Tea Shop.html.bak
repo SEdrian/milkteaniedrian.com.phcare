@@ -1,0 +1,72 @@
+
+<html>
+<Title>Bubble Milk TEA Shop</title>
+<head>
+	
+
+<body style=
+  "background-image: url('Images/BubbleTea.jpg');
+  text-align:center;font-family: Georgia;">
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content=" width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </br><script style="background-color:white"></script>
+  <script style="background-color:white"></script>
+  </head>
+<body>
+	
+<div class="container">
+  <div class="jumbotron">
+    <h1>Good Day and Welcome!!</h1><hr>
+    <p>Place your order by clicking the Order Button below</p> 
+	
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 style= "background-color:white;padding: 11px 50px;"><b>REGULAR</h3></b>
+	  <h4 style= "background-color:white;padding: 3px 1px;"><b>For only 100 php</h4></b><hr>
+      <p style="color:white;">Drinks that originated in Japan that became popular all over the world</p>
+      <p style="color:white;">A refreshing beverage commonly made with a certain type of tea and milk</p><hr>
+	  <img  src="Images/Regular.jpg" alt=" " width="314" height="320" >
+	  
+    </div>
+    <div class="col-sm-4">
+      <h3 style= "background-color:white;padding: 11px 50px;"><b>HOKKAIDO</h3></b>
+	  <h4 style= "background-color:white;padding: 3px 1px;"><b>For only 120 php</h4></b><hr>
+      <p style="color:white;">Named after one of the major island in Japan and known as Japan's dairy land</p>
+      <p style="color:white;">A type of milk based sweet black tea more commonly known drink in Japan</p><hr>
+	  <img src="Images/Hokaido.jpg" alt=" " width="314" height="320" >
+	  
+	
+	
+    </div>
+    <div class="col-sm-4">
+      <h3 style= "background-color:white;padding: 11px 50px;"><b>OKINAWA</h3></b> 
+		<h4 style= "background-color:white;padding: 3px 1px;"><b>For only 150 php</h4></b><hr>	  
+      <p style="color:white;">Also known as Roasted Milk Tea  which uses a special roastes brown sugar</p>
+      <p style="color:white;">Traditionally made with tapioca balls that are sauteed in brown sugar</p><hr>
+	  <img src="Images/Okinawa.jpg" alt=" " width="314" height="320" >
+	  
+    </div>
+  </div>
+</div>
+</br>
+<a href="Sugar Level.html">
+	<button style= "
+  background-color:white;
+  color: black;
+  padding: 11px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 6px 2px;
+  cursor: pointer;
+  font-family: Georgia;">ORDER</button>
+	</a>
+</body>
+</html>
+
