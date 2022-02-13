@@ -1,0 +1,196 @@
+
+
+<html>
+<Title>Bubble Milk TEA Shop</title>
+<head>
+
+<body style=
+  "background-image: url('Images/SugarLevel.jpg');
+  background-attachment: fixed;
+  text-align:center;font-family: Georgia;">
+  
+  
+  <html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content=" width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </br><script style="background-color:white"></script>
+  <script style="background-color:white"></script>
+  </head>
+<body>
+	
+<div class="container">
+  <div class="jumbotron">
+    <h1>PLEASE SELECT YOUR ORDER</h1><hr>
+    <p>After selecting your order Select your prefered Sugar Level also</p> 
+	
+  </div>
+  
+	
+
+</body>
+      
+<body>
+  <main>
+    </div>
+    
+    <div class="milktea">
+      <form class="form js-milkteaForm">
+        <h4><div style= "background-color:white; margin: 12px auto 10px auto; display: table; padding: 20px 123px; class="milktea__block">
+          <fieldset class="form__fieldset">
+            <b><legend class="form__legend" >Choose Your Flavor</legend>
+            <div class="form__input-container">
+              <input class="form__radio" type="radio" name="milktea" value="100" id="Regular" checked>
+              <label class="form__label" for="Regular">
+                Regular 
+                <span aria-hidden="true">-</span>
+                100
+                <span aria-hidden="true"> Pesos</span>
+                <span class="visually-hidden">Only</span>
+              </label>
+            </div>
+            <div class="form__input-container">
+              <input class="form__radio" type="radio" name="milktea" value="125" id="Hokaido">
+              <label class="form__label" for="Hokaido">
+                Hokaido 
+                <span aria-hidden="true">-</span>
+                125
+                <span aria-hidden="true"> Pesos</span>
+                <span class="visually-hidden">Only</span>
+              </label>
+            </div>
+            <div class="form__input-container">
+              <input class="form__radio" type="radio" name="milktea" value="150" id="Okinawa">
+              <label class="form__label" for="Okinawa">
+                Okinawa 
+                <span aria-hidden="true">-</span>
+                150
+                <span aria-hidden="true"> Pesos</span>
+                <span class="visually-hidden">Only</span>
+              </label><hr>
+            </div>
+        </fieldset>
+          <fieldset style= "background-color:white; margin: 12px auto 10px auto; display: table; padding: 20px 123px;class="form__fieldset">
+            <legend class="form__legend">Choose your prefered Sugar Level</legend>
+            <div class="form__input-container">
+              <input class="form__radio" type="radio" name="sugar" value="10" id="25">
+              <label class="form__label" for="25">
+                25% 
+                <span aria-hidden="true">-</span>
+                <span class="visually-hidden">+</span>
+                10
+                <span aria-hidden="true"> Pesos</span>
+                <span class="visually-hidden">Additional Fee</span>
+              </label>
+            </div>
+            <div class="form__input-container">
+              <input class="form__radio" type="radio" name="sugar" value="20" id="50">
+              <label class="form__label" for="50">
+                50% 
+                <span aria-hidden="true">-</span>
+                <span class="visually-hidden">+</span>
+                20
+                <span aria-hidden="true"> Pesos</span>
+                <span class="visually-hidden">Additional Fee</span>
+              </label>
+            </div>
+            <div class="form__input-container">
+              <input class="form__radio" type="radio" name="sugar" value="25" id="75">
+              <label class="form__label" for="75">
+                75% 
+                <span aria-hidden="true">-</span>
+                <span class="visually-hidden">+</span>
+                25
+                <span aria-hidden="true"> Pesos</span>
+                <span class="visually-hidden">Additional Fee</span>
+              </label>
+            </div>
+            <div class="form__input-container">
+              <input class="form__radio" type="radio" name="sugar" value="30" id="100">
+              <label class="form__label" for="100">
+                100% 
+                <span aria-hidden="true">-</span>
+                <span class="visually-hidden">+</span>
+                30
+                <span aria-hidden="true"> Pesos</span>
+                <span class="visually-hidden">Additional Fee</span>
+              </label>
+            </div>
+            <div form__input-container">
+              <input class="form__radio" type="radio" name="sugar" value="0" id="0" checked>
+              <label class="form__label" for="0">
+              0%
+				<span aria-hidden="true">-</span>
+                <span class="visually-hidden">No sugar /</span>
+               
+                <span aria-hidden="true"> No</span>
+                <span class="visually-hidden">Additional Fee</span>
+              </label>
+            </div>
+        </fieldset>
+          <button class="form__button js-addMilktea" type="button" style= "
+  background-color:white;
+  color: black;
+  padding: 11px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 6px 2px;
+  cursor: pointer;
+  font-family: Georgia;">Add milktea</button>
+        </div>
+        
+        <div style= "background-color:white; margin: 12px auto 10px auto; display: table; padding: 20px 123px;class="milktea__block">
+          <div class="milktea__orders-container">
+            <h2 class="milktea__heading">
+              <b><span class="aria-hidden">Summary Of</span>
+              <span class="visually-hidden">Your orders</span>
+            </h2>
+            <ul class="milktea__orders js-milktea-orders"></ul>
+          </div>
+          <div>
+            <h2 class="milktea__heading">Total
+              <span aria-hidden="true">:</span>
+              
+              <span class="milktea__total-price js-total-price">0</span>
+			  Pesos
+            </h2>
+          </div>
+          <div>
+            <button type="submit" onClick="refreshPage()";  class="form__button" type="button"; style= "
+  background-color:white;
+  color: black;
+  padding: 11px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 6px 2px;
+  cursor: pointer;
+  font-family: Georgia;">Order now</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+	
+	<a href="Milk Tea Shop.html">
+	<button style= "
+  background-color:white;
+  color: black;
+  padding: 11px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 6px 2px;
+  cursor: pointer;
+  font-family: Georgia;">RETURN TO MENU</button>
+	</a>
+	
+</body>
+</html>
